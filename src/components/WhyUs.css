@@ -1,0 +1,96 @@
+.whyus {
+  background: var(--cream);
+}
+
+/* Stats Bar */
+.whyus__stats-bar {
+  background: var(--teal);
+  padding: 32px 0;
+}
+.whyus__stats-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  text-align: center;
+}
+.whyus__stat {
+  padding: 8px 20px;
+  border-right: 1px solid rgba(255,255,255,0.2);
+}
+.whyus__stat:last-child { border-right: none; }
+.whyus__stat-value {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.1;
+}
+.whyus__stat-label {
+  display: block;
+  font-size: 13px;
+  color: rgba(255,255,255,0.75);
+  margin-top: 4px;
+}
+
+/* Body */
+.whyus__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.whyus__right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.whyus__reason {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  border: 1px solid var(--border);
+  transition: var(--transition);
+}
+.whyus__reason:hover {
+  border-color: rgba(10,124,110,0.2);
+  box-shadow: var(--shadow-sm);
+  transform: translateX(4px);
+}
+.whyus__reason-icon {
+  font-size: 26px;
+  flex-shrink: 0;
+  width: 48px; height: 48px;
+  background: var(--teal-pale);
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+}
+.whyus__reason-title {
+  font-family: var(--font-display);
+  font-size: 17px;
+  color: var(--charcoal);
+  margin-bottom: 5px;
+}
+.whyus__reason-desc {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+@media (max-width: 860px) {
+  .whyus__body { grid-template-columns: 1fr; gap: 40px; padding-top: 64px; padding-bottom: 64px; }
+  .whyus__stats-inner { grid-template-columns: repeat(2, 1fr); }
+  .whyus__stat { border-bottom: 1px solid rgba(255,255,255,0.2); }
+  .whyus__stat:nth-child(2) { border-right: none; }
+  .whyus__stat:nth-child(3), .whyus__stat:nth-child(4) { border-bottom: none; }
+}
+@media (max-width: 480px) {
+  .whyus__stats-inner { grid-template-columns: 1fr 1fr; }
+}
