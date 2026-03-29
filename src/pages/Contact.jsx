@@ -33,10 +33,10 @@ const Contact = () => {
             <h2 className="section-title" style={{ fontSize: 28, marginBottom: 28 }}>Contact Details</h2>
 
             {[
-              { icon: "📍", label: "Visit Us", value: "12, Boring Road, Patna, Bihar – 800001", sub: "Near Patna Medical College" },
-              { icon: "📞", label: "Call Us", value: "+91 612 555 0100", sub: "Mon–Sat, 9 AM – 7 PM" },
-              { icon: "✉️", label: "Email Us", value: "hello@dentacare.in", sub: "We reply within 24 hours" },
-              { icon: "💬", label: "WhatsApp", value: "+91 98765 43210", sub: "Quick responses, any time" },
+              { icon: "📍", label: "Visit Us", value: "surendranath school, Deepatoli, Santman Nagar, Ranchi – 834012", sub: "Near Heritage Garden, opp. :surendranath school" },
+              { icon: "📞", label: "Call Us", value: "+91 9471717965", sub: "Mon–Sat, 9 AM – 7 PM" },
+              { icon: "✉️", label: "Email Us", value: "hi@dentacare.in", sub: "We reply within 24 hours" },
+              { icon: "💬", label: "WhatsApp", value: "+91  9471717965", sub: "Quick responses, any time" },
             ].map((item) => (
               <div className="contact-detail" key={item.label}>
                 <div className="contact-detail__icon">{item.icon}</div>
@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="contact-map">
               <div className="contact-map__inner">
                 <span>🗺️</span>
-                <p>Boring Road, Patna, Bihar</p>
+                <p>Deepatoli, Santman Nagar, Ranchi, Jharkhand</p>
                 <a
                   href="https://maps.google.com/?q=Boring+Road+Patna"
                   target="_blank"
