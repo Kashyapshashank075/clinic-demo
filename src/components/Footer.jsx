@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="footer__brand">
           <div className="footer__logo">
             <span>🦷</span>
-            <span className="footer__logo-text">DentaCare Clinic</span>
+            <span className="footer__logo-text">Hi Dent Dental Clinic</span>
           </div>
           <p className="footer__tagline">
-            Your smile is our greatest achievement. Caring for Patna's families since 2009.
+            Your smile is our greatest achievement. Caring for Ranchi's families since 2009.
           </p>
           <div className="footer__socials">
             {["Facebook", "Instagram", "Twitter", "YouTube"].map((s) => (
@@ -57,15 +57,15 @@ const Footer = () => {
           <ul className="footer__contact-list">
             <li>
               <span className="footer__contact-icon">📍</span>
-              <span>Boring Road, Patna, Bihar 800001</span>
+              <span> Deepatoli, Santman Nagar, Ranchi,834012</span>
             </li>
             <li>
               <span className="footer__contact-icon">📞</span>
-              <a href="tel:+916125550100">+91 612 555 0100</a>
+              <a href="tel:+9471717965">+91 9471717965</a>
             </li>
             <li>
               <span className="footer__contact-icon">✉️</span>
-              <a href="mailto:hello@dentacare.in">hello@dentacare.in</a>
+              <a href="mailto:hello@dentacare.in">hi@dentacare.in</a>
             </li>
             <li>
               <span className="footer__contact-icon">🕐</span>

@@ -102,7 +102,7 @@ export const stats = [
 
 export const team = [
   {
-    name: "Dr. Meera Kapoor",
+    name: "Dr. Moni Seema",
     role: "Chief Dental Officer",
     initials: "MK",
     color: "#0a7c6e",
@@ -110,7 +110,7 @@ export const team = [
     spec: "Implantology & Cosmetics",
   },
   {
-    name: "Dr. Arjun Nair",
+    name: "Dr. Harish Kumar",
     role: "Orthodontist",
     initials: "AN",
     color: "#c9a84c",

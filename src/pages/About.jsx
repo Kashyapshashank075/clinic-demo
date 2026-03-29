@@ -20,7 +20,7 @@ const About = () => {
         <div className="container about-hero__content">
           <span className="section-tag" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>🏥 About Us</span>
           <h1 className="about-hero__title">
-            Caring for Patna's<br />Smiles Since 2009
+            Caring for Ranchi's<br />Smiles Since 2009
           </h1>
           <p className="about-hero__desc">
             We're more than a dental clinic — we're your long-term partners in oral health. Meet the passionate team behind every bright smile.
@@ -59,7 +59,7 @@ const About = () => {
             <div className="about-mission__cite">
               <div className="about-mission__avatar" style={{ background: "#0a7c6e" }}>MK</div>
               <div>
-                <strong>Dr. Meera Kapoor</strong>
+                <strong>Dr. Moni Seema</strong>
                 <div style={{ fontSize: 13, color: "var(--muted)" }}>Founder & Chief Dental Officer</div>
               </div>
             </div>
