@@ -31,7 +31,7 @@ const Navbar = () => {
         <Link to="/" className="navbar__logo">
           <span className="navbar__logo-icon">🦷</span>
           <span>
-            <span className="navbar__logo-main">Hi Dent Dental Clinic</span>
+            <span className="navbar__logo-main"> North Bengal Smile Care </span>
             <span className="navbar__logo-sub">Clinic</span>
           </span>
         </Link>

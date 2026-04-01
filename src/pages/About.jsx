@@ -4,11 +4,11 @@ import AppointmentForm from "../components/AppointmentForm";
 import "./About.css";
 
 const milestones = [
-  { year: "2009", title: "Founded", desc: "DentaCare opened its doors in Boring Road, Patna with 2 dentists and a dream." },
+  { year: "2015", title: "Founded", desc: "North Bengal Smile Care opened its doors in Hakim Para, Siliguri with  a dream." },
   { year: "2013", title: "Expanded", desc: "Added orthodontics and cosmetic dentistry, growing to a team of 6 specialists." },
   { year: "2017", title: "Tech Upgrade", desc: "Introduced digital X-rays, 3D cone beam CT scanning, and laser dentistry." },
   { year: "2021", title: "5,000 Patients", desc: "Crossed 5,000 happy patients and launched our children's dental wing." },
-  { year: "2024", title: "Award-Winning", desc: "Recognised as Bihar's Best Dental Clinic by Health Excellence Awards." },
+  { year: "2024", title: "Award-Winning", desc: "Recognised as Bengal's Best Dental Clinic by Health Excellence Awards." },
 ];
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
         <div className="container about-hero__content">
           <span className="section-tag" style={{ background: "rgba(255,255,255,0.15)", color: "#fff" }}>🏥 About Us</span>
           <h1 className="about-hero__title">
-            Caring for Ranchi's<br />Smiles Since 2009
+            Caring for Siliguri's<br />Smiles Since 2015
           </h1>
           <p className="about-hero__desc">
             We're more than a dental clinic — we're your long-term partners in oral health. Meet the passionate team behind every bright smile.
@@ -57,9 +57,9 @@ const About = () => {
               "Every patient who walks through our doors deserves to leave with a brighter smile and complete confidence in their dental health."
             </div>
             <div className="about-mission__cite">
-              <div className="about-mission__avatar" style={{ background: "#0a7c6e" }}>MK</div>
+              <div className="about-mission__avatar" style={{ background: "#0a7c6e" }}>AN</div>
               <div>
-                <strong>Dr. Moni Seema</strong>
+                <strong>Dr. Abhijit Nag</strong>
                 <div style={{ fontSize: 13, color: "var(--muted)" }}>Founder & Chief Dental Officer</div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const About = () => {
         <div className="container">
           <div className="about-timeline__header">
             <span className="section-tag">📅 Our Journey</span>
-            <h2 className="section-title" style={{ marginTop: 8 }}>15 Years of Smiles</h2>
+            <h2 className="section-title" style={{ marginTop: 8 }}>11 Years of Smiles</h2>
           </div>
           <div className="timeline">
             {milestones.map((m, i) => (

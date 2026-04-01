@@ -36,10 +36,10 @@ const AppointmentSection = () => {
 
           {/* Quick contact */}
           <div className="appt-section__contacts">
-            <a href="tel:+916125550100" className="appt-contact-chip">
-              <span>📞</span> +91 612 555 0100
+            <a href="tel:+9194743 36239" className="appt-contact-chip">
+              <span>📞</span> +91 94743 36239
             </a>
-            <a href="https://wa.me/916125550100" className="appt-contact-chip appt-contact-chip--green">
+            <a href="https://wa.me/9194743 36239" className="appt-contact-chip appt-contact-chip--green">
               <span>💬</span> WhatsApp Us
             </a>
           </div>

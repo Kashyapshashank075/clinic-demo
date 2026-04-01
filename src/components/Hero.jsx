@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="hero__content animate-fadeUp">
           <div className="hero__badge">
             <span className="hero__badge-dot" />
-            Ranchi's Most Trusted Dental Clinic
+            Siliguri's Most Trusted Dental Clinic
           </div>
 
           <h1 className="hero__title">
@@ -75,26 +75,16 @@ const Hero = () => {
           <div className="hero__card">
             <div className="hero__card-header">
               <div className="hero__card-avatar">
-                <span>👩‍⚕️</span>
-              </div>
-              <div>
-                <div className="hero__card-name">Dr. Moni Seema</div>
-              </div>
-              <div className="hero__card-online">
-                <span /> Available
-              </div>
-            </div>
-            <div className="hero__card-header">
-              <div className="hero__card-avatar">
                 <span>👨‍⚕️</span>
               </div>
               <div>
-                <div className="hero__card-name">Dr. Harish Kumar</div>
+                <div className="hero__card-name"> Dr. Abhijit Nag</div>
               </div>
               <div className="hero__card-online">
                 <span /> Available
               </div>
             </div>
+           
             <div className="hero__card-divider" />
             <div className="hero__card-stats">
               <div className="hero__card-stat">

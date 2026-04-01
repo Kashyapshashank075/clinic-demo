@@ -33,10 +33,10 @@ const Contact = () => {
             <h2 className="section-title" style={{ fontSize: 28, marginBottom: 28 }}>Contact Details</h2>
 
             {[
-              { icon: "📍", label: "Visit Us", value: "surendranath school, Deepatoli, Santman Nagar, Ranchi – 834012", sub: "Near Heritage Garden, opp. :surendranath school" },
-              { icon: "📞", label: "Call Us", value: "+91 9471717965", sub: "Mon–Sat, 9 AM – 7 PM" },
-              { icon: "✉️", label: "Email Us", value: "hi@dentacare.in", sub: "We reply within 24 hours" },
-              { icon: "💬", label: "WhatsApp", value: "+91  9471717965", sub: "Quick responses, any time" },
+              { icon: "📍", label: "Visit Us", value: " Hakim Para, Siliguri, West Bengal 734001", sub: "Near Jayasree Pharmacy, Kachari Road," },
+              { icon: "📞", label: "Call Us", value: "+91 94743 36239", sub: "Mon–Sat, 9 AM – 7 PM" },
+              { icon: "✉️", label: "Email Us", value: "northbengal@dentacare.in", sub: "We reply within 24 hours" },
+              { icon: "💬", label: "WhatsApp", value: "+91  94743 36239", sub: "Quick responses, any time" },
             ].map((item) => (
               <div className="contact-detail" key={item.label}>
                 <div className="contact-detail__icon">{item.icon}</div>
@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="contact-map">
               <div className="contact-map__inner">
                 <span>🗺️</span>
-                <p>Deepatoli, Santman Nagar, Ranchi, Jharkhand</p>
+                <p> Hakim Para, Siliguri, West Bengal 734001</p>
                 <a
                   href="https://maps.google.com/?q=Boring+Road+Patna"
                   target="_blank"
